@@ -1,0 +1,126 @@
+ /* Definir la fuente y el color de fondo de la pagina*/
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  arial, Helvetica, sans-serif;
+    background-color:   rgb(182, 216, 228);
+}
+
+/*Definir el estilo de encabezado*/
+header{
+overflow: hidden;
+width: 890px;
+margin: 10px auto 5px auto;
+  
+}
+
+header #banne{
+    width: 1280px;
+    height: 200px; 
+}
+
+header #banner figure #imgbaner{
+   overflow: hidden;
+   width: 100%;
+   height: 200px;
+   background: url(Img/imgbaner.png);
+   border-radius: 5px;
+}
+
+header h1{
+color: rgb(11, 117, 223);
+
+}
+
+nav{
+  /* Definir el estilo del menu de navegacion*/
+   background-color:#5389a9;
+    padding: 15px;
+  
+}
+
+nav ul {
+list-style-type: style type square;
+margin:0;
+padding:0;
+display:flex;
+justify-content:space-evenly;
+border-radius: 5%;
+}
+
+nav li{
+margin:0 10;
+
+}
+
+nav a{
+color:rgb(235, 152, 45)
+tex-decoration none;
+font-weight:bold;
+}
+nav a:hover{
+color:rgb(212, 228, 219);
+background-color:#111214;
+border-radius: 5%;
+}
+section{
+  width: 100%;
+overflow: hidden;
+background: rgb(164, 205, 221);
+border-radius: 5%;
+}
+
+section #INFO{
+overflow: hidden;
+width: 800px;
+margin: 0px auto 5px auto;
+
+}
+
+section #info aside{
+overflow: left;
+width: 220px;
+
+}
+
+section #info aside{
+
+   padding: 0px 0px 20px 0px;
+   color: black;
+   letter-spacing: -1px;
+   font-size: 1.5em;
+  
+}
+section #info aside h2{
+
+  padding: 0px 0px 20px 0px;
+  color: rgb(1, 0, 1);
+  letter-spacing: -1px;
+  font-size: 30px;
+
+}
+
+section #info aside ul li{
+ 
+    list-style:georgian; 
+  padding: 10px 0px;
+  border-top: 1px dashed #06060a;
+  
+}
+
+section #info aside ul li a{
+
+text-decoration: none;
+color: #1171ad;
+font-size: 16px;
+
+}
+
+/*Definir los estilos de los enlaces*/
+a{
+color:rgb(22, 18, 18)
+text-decoration-style: dotted;
+}
+
+a:hover{
+    text-decoration:rgb(65, 137, 225);
+}
+
